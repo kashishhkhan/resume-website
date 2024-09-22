@@ -1,0 +1,251 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #000000;
+}
+
+header p {
+    font-size: 14px;
+    color: #555555;
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0073e6;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Card */
+.profile-card {
+    width: 40%;
+    background-color: #e9e4dc;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.profile-card p {
+    font-size: 16px;
+    color: #333333;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000000;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+}
+
+/* Info Section */
+.info-section {
+    width: 60%;
+    padding: 60px 40px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #000000;
+    color: #000;
+}
+
+/* Education Section */
+#education {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#education h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+    text-align: center;
+}
+
+#education ul li::before {
+    content: "\2022"; /* Bullet symbol */
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#education ul li:hover {
+    color: #0073e6;
+}
+
+/* Skills Section */
+#skills {
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #f4f4f4;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+    text-align: center;
+}
+
+#skills ul li::before {
+    content: "\2022"; /* Bullet symbol */
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#skills ul li:hover {
+    color: #0073e6;
+}
+
+#skills h3 {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#skills p {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    border-top: 1px solid #cccccc;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 16px;
+    color: #333333;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+footer p:hover {
+    color: #0073e6;
+}
